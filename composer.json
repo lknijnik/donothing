@@ -1,0 +1,23 @@
+{
+  "name": "lknijnik/donothing",
+  "type"       : "library",
+  "description": "Do nothing project",
+  "keywords"   : ["Nothing"],
+  "homepage": "http://www.leonelknijnik.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leonel Knijnik (forked from Max Alex)",
+      "email": "contato@leonelknijnik.com.br",
+      "homepage": "https://www.leonelknijnik.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LKnijnik\\DoNothing\\": "src"
+    }
+  }
+}
